@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Lesson01Ex01Controller {
 
 	// 요청 URL: http://localhost:8080/lesson01/ex01/1
-	@ResponseBody // 리턴되는 값을 HTML Response Body로 보낸다 없으면 404에러 발생
+	@ResponseBody // 리턴되는 값을 HTML Response Body로 보낸다 없으면 404에러 발생 return값이 담긴다(return이 있을 시 꼭 필요)
 	@RequestMapping("/1")
 	public String ex01_1() { // 주소 메핑
 		String text = "예제 1번 <br>문자열을 response body로 보내는 예제";
