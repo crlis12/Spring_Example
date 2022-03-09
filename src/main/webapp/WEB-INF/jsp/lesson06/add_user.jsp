@@ -69,7 +69,7 @@
 					, error: function(e){
 						alert("실패")
 					}
-				})
+				});
 				
 			});
 			
